@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import Logo from  "../assets/Logo.png";
+import Logo from  "../assets/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -84,4 +84,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
